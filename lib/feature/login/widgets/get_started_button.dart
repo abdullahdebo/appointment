@@ -1,3 +1,4 @@
+import 'package:appointment/core/helper/extension.dart';
 import 'package:appointment/core/theming/colors.dart';
 import 'package:appointment/core/theming/style.dart';
 import 'package:flutter/material.dart';
@@ -8,7 +9,9 @@ class GetStartedButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return TextButton(
-      onPressed: () {},
+      onPressed: () {
+        context.pushNamed('/loginScreen');
+      },
       style: ButtonStyle(
         backgroundColor: WidgetStateProperty.all(ColorsManager.mainBlue),
         tapTargetSize: MaterialTapTargetSize.shrinkWrap,
@@ -23,7 +26,7 @@ class GetStartedButton extends StatelessWidget {
       ),
       child: Text(
         'Get Started',
-        style: TextStyles.font16WhiteSemiBold,
+        style: TextStyles.font16WhiteMedium,
       ),
     );
   }
