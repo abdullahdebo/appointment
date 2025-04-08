@@ -81,4 +81,8 @@ class TextStyles {
     fontWeight: FontWeightHelper.medium,
     color: Colors.white,
   );
+
+  static var font15DarkBlueMedium;
+
+  static var font14BlueSemiBold;
 }
