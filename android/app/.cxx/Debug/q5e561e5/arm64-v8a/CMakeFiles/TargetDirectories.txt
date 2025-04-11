@@ -1,0 +1,2 @@
+/Volumes/MyDisk/appointment/android/app/.cxx/Debug/q5e561e5/arm64-v8a/CMakeFiles/edit_cache.dir
+/Volumes/MyDisk/appointment/android/app/.cxx/Debug/q5e561e5/arm64-v8a/CMakeFiles/rebuild_cache.dir
