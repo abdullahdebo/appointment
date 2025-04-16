@@ -4,7 +4,7 @@ import 'package:appointment/feature/login/widgets/doctor_image_and_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-import 'widgets/get_started_button.dart';
+import 'login/widgets/get_started_button.dart';
 
 class Onboardingscreen extends StatelessWidget {
   const Onboardingscreen({super.key});

@@ -1,8 +1,8 @@
 import 'package:appointment/core/networking/api_constants.dart';
 import 'package:appointment/feature/login/data/models/login_request_body.dart';
 import 'package:appointment/feature/login/data/models/login_response.dart';
-import 'package:appointment/feature/login/sign_up/data/models/sign_up_request_body.dart';
-import 'package:appointment/feature/login/sign_up/data/models/sign_up_response.dart';
+import 'package:appointment/feature/sign_up/data/models/sign_up_request_body.dart';
+import 'package:appointment/feature/sign_up/data/models/sign_up_response.dart';
 import 'package:dio/dio.dart';
 import 'package:retrofit/retrofit.dart';
 

@@ -82,7 +82,27 @@ class TextStyles {
     color: Colors.white,
   );
 
-  static var font15DarkBlueMedium;
+  static TextStyle font15DarkBlueMedium = TextStyle(
+    fontSize: 15.sp,
+    fontWeight: FontWeightHelper.medium,
+    color: ColorsManager.darkBlue,
+  );
 
-  static var font14BlueSemiBold;
+  static TextStyle font14BlueSemiBold = TextStyle(
+    fontSize: 14.sp,
+    fontWeight: FontWeightHelper.semiBold,
+    color: ColorsManager.mainBlue,
+  );
+
+  static TextStyle font18DarkBlueBold = TextStyle(
+    fontSize: 18.sp,
+    fontWeight: FontWeightHelper.bold,
+    color: ColorsManager.darkBlue,
+  );
+
+  static TextStyle font12GreyReguler = TextStyle(
+    fontSize: 12.sp,
+    fontWeight: FontWeight.normal,
+    color: ColorsManager.gray,
+  );
 }

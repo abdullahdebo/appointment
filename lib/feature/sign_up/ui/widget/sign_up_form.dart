@@ -1,7 +1,7 @@
 import 'package:appointment/core/helper/app_regex.dart';
 import 'package:appointment/core/helper/spacing.dart';
 import 'package:appointment/core/widgets/app_text_form_field.dart';
-import 'package:appointment/feature/login/sign_up/logic/sign_up_cubit.dart';
+import 'package:appointment/feature/sign_up/logic/sign_up_cubit.dart';
 import 'package:appointment/feature/login/ui/widgets/password_validations.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';

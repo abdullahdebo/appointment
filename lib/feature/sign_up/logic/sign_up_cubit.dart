@@ -1,5 +1,5 @@
-import 'package:appointment/feature/login/sign_up/data/repos/sign_up_repo.dart';
-import 'package:appointment/feature/login/sign_up/logic/sign_up_state.dart'
+import 'package:appointment/feature/sign_up/data/repos/sign_up_repo.dart';
+import 'package:appointment/feature/sign_up/logic/sign_up_state.dart'
     show SignupState;
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';

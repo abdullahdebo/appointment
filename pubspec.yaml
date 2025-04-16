@@ -60,6 +60,7 @@ dependencies:
   flutter_svg: ^2.0.9
   # For responsive design
   flutter_screenutil: ^5.9.3
+  firebase_core: ^3.13.0
 
 dev_dependencies:
   flutter_test:

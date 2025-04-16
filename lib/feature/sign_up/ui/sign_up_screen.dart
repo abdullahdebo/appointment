@@ -1,10 +1,10 @@
 import 'package:appointment/core/helper/spacing.dart';
 import 'package:appointment/core/theming/style.dart';
 import 'package:appointment/core/widgets/app_text_button.dart';
-import 'package:appointment/feature/login/sign_up/logic/sign_up_cubit.dart';
-import 'package:appointment/feature/login/sign_up/ui/widget/already_have_account_text.dart';
-import 'package:appointment/feature/login/sign_up/ui/widget/sign_up_bloc_listener.dart';
-import 'package:appointment/feature/login/sign_up/ui/widget/sign_up_form.dart';
+import 'package:appointment/feature/sign_up/logic/sign_up_cubit.dart';
+import 'package:appointment/feature/sign_up/ui/widget/already_have_account_text.dart';
+import 'package:appointment/feature/sign_up/ui/widget/sign_up_bloc_listener.dart';
+import 'package:appointment/feature/sign_up/ui/widget/sign_up_form.dart';
 import 'package:appointment/feature/login/ui/widgets/terms_and_conditions_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';

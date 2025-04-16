@@ -11,7 +11,7 @@ class AppRegex {
   }
 
   static bool isPhoneNumberValid(String phone) {
-    return RegExp(r'^(05[034578])([0-9]{7})$').hasMatch(phone);
+    return RegExp(r'^(05[0345678])([0-9]{7})$').hasMatch(phone);
   }
 
   static bool hasLowerCase(String password) {

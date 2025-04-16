@@ -2,7 +2,7 @@ import 'package:appointment/core/helper/extension.dart';
 import 'package:appointment/core/routing/routes.dart';
 import 'package:appointment/core/theming/colors.dart';
 import 'package:appointment/core/theming/style.dart';
-import 'package:appointment/feature/login/sign_up/logic/sign_up_cubit.dart';
+import 'package:appointment/feature/sign_up/logic/sign_up_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
