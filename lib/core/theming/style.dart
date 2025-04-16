@@ -111,9 +111,34 @@ class TextStyles {
     fontWeight: FontWeight.normal,
     color: ColorsManager.gray,
   );
+
+  static TextStyle font12DarkBlueReguler = TextStyle(
+    fontSize: 12.sp,
+    fontWeight: FontWeight.normal,
+    color: ColorsManager.darkBlue,
+  );
+
   static TextStyle font18WhiteMedium = TextStyle(
     fontSize: 18.sp,
     fontWeight: FontWeightHelper.medium,
     color: Colors.white,
+  );
+
+  static TextStyle font18DarkBlueSemiBold = TextStyle(
+    fontSize: 18.sp,
+    fontWeight: FontWeightHelper.bold,
+    color: ColorsManager.darkBlue,
+  );
+
+  static TextStyle font12BlueRegular = TextStyle(
+    fontSize: 12.sp,
+    fontWeight: FontWeight.normal,
+    color: ColorsManager.mainBlue,
+  );
+
+  static TextStyle font12GreyMedium = TextStyle(
+    fontSize: 12.sp,
+    fontWeight: FontWeight.normal,
+    color: ColorsManager.gray,
   );
 }
