@@ -61,6 +61,8 @@ dependencies:
   # For responsive design
   flutter_screenutil: ^5.9.3
   firebase_core: ^3.13.0
+  #Flutter library to load and cache network images.
+  cached_network_image: ^3.3.1
 
 dev_dependencies:
   flutter_test:
