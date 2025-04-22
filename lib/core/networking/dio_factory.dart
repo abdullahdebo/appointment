@@ -1,3 +1,5 @@
+import 'package:appointment/core/helper/constants.dart';
+import 'package:appointment/core/helper/shared_pref_helper.dart';
 import 'package:dio/dio.dart';
 
 import 'package:pretty_dio_logger/pretty_dio_logger.dart';
@@ -24,12 +26,18 @@ class DioFactory {
     }
   }
 
-  static void addDioHeaders() {
-    dio?.options.headers.addAll({
+  static void addDioHeaders() async {
+    dio?.options.headers = {
       'Accept': 'application/json',
       'Authrization':
-          'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3ZjYXJlLmludGVncmF0aW9uMjUuY29tL2FwaS9hdXRoL2xvZ2luIiwiaWF0IjoxNzQ1MDUzNzk2LCJleHAiOjE3NDUxNDAxOTYsIm5iZiI6MTc0NTA1Mzc5NiwianRpIjoiVzJGTHRNamJxMHpJaTNuRCIsInN1YiI6IjM1ODMiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.mIP1vnEPaPT1Txk3VHE6qrplLxPH0BzlOFk9hDuL-gs',
-    });
+          'Bearer ${await SharedPrefHelper.getSecuredString(SharedPrefKeys.userToken)}',
+    };
+  }
+
+  static void setTokenIntoHeaderAfterLogin(String token) {
+    dio?.options.headers = {
+      'Authrization': 'Bearer $token',
+    };
   }
 
   static void addDioInterceptor() {
